@@ -1,0 +1,56 @@
+# source: https://www.blick.ch/wirtschaft/blick-macht-den-preisvergleich-die-unterschiede-muss-man-mit-der-lupe-suchen-id15177750.html
+---
+Milchschokolade:
+  quantity: 100g
+  migrosId: '100102800000'
+Olivenöl:
+  quantity: 1l
+  migrosId: '103302600000'
+Spaghetti:
+  quantity: 1kg
+  migrosId: '104102000000'
+Senf:
+  quantity: 300g
+  migrosId: '106409500000'
+Mineral:
+  quantity: 1,5l
+  migrosId: '120801100000'
+Konfitüre Himbeer:
+  quantity: 100g
+  migrosId: '151003000000'
+Fischstäbchen:
+  quantity: 450g
+  migrosId: '165040700000'
+Mozzarella:
+  quantity: 100g
+  migrosId: '200609600000'
+Vollmilch:
+  quantity: 1l
+  migrosId: '204014000000'
+Hackfleisch:
+  quantity: 100g
+  migrosId: '220221085100'
+Hinterschinken:
+  quantity: 100g
+  migrosId: '231502083302'
+Orangen:
+  quantity: 1kg
+  migrosId: '263300902300'
+Tomato Ketchup:
+  quantity: 500g
+  migrosId: '106618900000'
+Toast:
+  quantity: 500g
+  migrosId: '111200800000'
+Tortellini:
+  quantity: 400g
+  migrosId: '130140400000'
+Lasagne:
+  quantity: 400g
+  migrosId: '162527500000'
+Cottage Cheese:
+  quantity: 200g
+  migrosId: '200604600000'
+Brie:
+  quantity: 100g
+  migrosId: '212555700000'
