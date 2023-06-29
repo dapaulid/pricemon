@@ -5,7 +5,7 @@ def load_config(filename):
 	ext = os.path.splitext(filename)[-1]
 	if ext == '.yaml':
 		import yaml
-		with open(filename, 'r') as f:
+		with open(filename, 'r', encoding='utf-8') as f:
 			return yaml.safe_load(f)
 	else:
 		raise ValueError("Unsupported file format: %s" % filename)
