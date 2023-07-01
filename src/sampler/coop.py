@@ -14,8 +14,8 @@ class CoopStore(Store):
 	def authenticate_impl(self):
 		pass
 
-	def get_product_impl(self, id):
-		data = self.http_get(id, resp_json=False)
+	def get_product_impl(self, url):
+		data = self.http_get(url, resp_json=False)
 		data = html.unescape(data.decode())
 		info = json.loads(find_between(data, '<!-- Product schema -->\n    <script type="application/ld+json">', '</script>'))
 

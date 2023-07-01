@@ -9,10 +9,11 @@ class MigrosStore(Store):
 		r, headers = self.http_get("https://www.migros.ch/authentication/public/v1/api/guest?ignoreAuthModule=true&rememberme=true", resp_headers=True)
 		self.session.headers.update({'leshopch': headers['leshopch']})            
 
-	def get_product_impl(self, id):
-		data = self.http_get("https://www.migros.ch/product-display/public/v2/product-detail?storeType=OFFLINE&warehouseId=2&region=national&ongoingOfferDate=2023-06-28T00:00:00&migrosIds=%s" % id)
+	def get_product_impl(self, url):
+		migrosId = url.rsplit('/', 1)[1]
+		data = self.http_get("https://www.migros.ch/product-display/public/v2/product-detail?storeType=OFFLINE&warehouseId=2&region=national&ongoingOfferDate=2023-06-28T00:00:00&migrosIds=%s" % migrosId)
 		if not data:
-			raise Exception("no product found with id %s" % id)
+			raise Exception("no product found with id %s" % url)
 		prod = Product(name=data[0]['name'], description=data[0].get('description'), price=data[0]['offer']['price'].get('value'), quantity=data[0]['offer'].get('quantity'))
 		return prod
 

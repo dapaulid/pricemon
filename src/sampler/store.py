@@ -28,11 +28,11 @@ class Store:
 		# implemented by subclasses
 		pass         
 
-	def get_product(self, id):
+	def get_product(self, url):
 		try:
-			return self.get_product_impl(id)
+			return self.get_product_impl(url)
 		except Exception as e:
-			print("error: failed to get product %s\n  %s" % (id, e))
+			print("error: failed to get product %s\n  %s" % (url, e))
 			return Product(name=id, description=None, price=math.nan, quantity=math.nan)
 
 	def get_product_impl(self, id):
