@@ -20,10 +20,10 @@ class Store:
 		# implemented by subclasses
 		return None
 	
-	def http_get(self, url, resp_headers=False):
+	def http_get(self, url, resp_json=True, resp_headers=False):
 		r = self.session.get(url)
 		r.raise_for_status()
-		data = r.json()
+		data = r.json() if resp_json else r.content
 		#print(yaml.dump(data, allow_unicode=True))		
 		if resp_headers:
 			return data, r.headers

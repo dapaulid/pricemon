@@ -3,15 +3,18 @@ from tabulate import tabulate, SEPARATING_LINE
 import helpers
 from product import Product
 from migros import MigrosStore
+from coop import CoopStore
 
 basket = helpers.load_config("config/baskets/blick.yaml")
 
-store = MigrosStore()
+migros_store = MigrosStore()
+coop_store = CoopStore()
 
 total_price = 0.0
 table = []
 for name, entry in basket.items():
-	prod = store.get_product(entry['migrosId'])
+	prod = migros_store.get_product(entry['migrosId'])
+	coop_store.get_product(entry['coopId'])
 	price = prod.get_price(entry['quantity'])
 	table.append([name, entry['quantity'], helpers.format_price(price)])
 	total_price += price	

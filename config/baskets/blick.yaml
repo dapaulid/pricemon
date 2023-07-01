@@ -3,54 +3,72 @@
 Milchschokolade:
   quantity: 100g
   migrosId: '100102800000'
+  coopId: 'de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch-nuss/prix-garantie-fairtrade-tafelschokolade-nuss/p/5934045'
 Olivenöl:
   quantity: 1l
   migrosId: '103302600000'
+  coopId: 'de/lebensmittel/vorraete/essig-oel/oel/olivenoel/prix-garantie-olivenoel-vergine-1l/p/6659561'  
 Spaghetti:
   quantity: 1kg
   migrosId: '104102000000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/vorraete/grundnahrungsmittel/teigwaren/spaghetti/prix-garantie-spaghetti/p/4831118'
 Senf:
   quantity: 300g
   migrosId: '106409500000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/senf/prix-garantie-senf/p/3530644'
 Mineral:
   quantity: 1,5l
   migrosId: '120801100000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/getraenke/mineralwasser/mit-kohlensaeure/prix-garantie-mineralwasser-mit-kohlensaeure-6x15l/p/3461198'
 Konfitüre Himbeer:
   quantity: 100g
   migrosId: '151003000000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/vorraete/brotaufstrich/konfituere/erdbeer-himbeer/prix-garantiehimbeere/p/6685845'
 Fischstäbchen:
   quantity: 450g
   migrosId: '165040700000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fleisch-fisch/fisch-meeresfruechte/fisch-paniert/prix-garantie-fischsticks-15x30g/p/6855501'
 Mozzarella:
   quantity: 100g
   migrosId: '200609600000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/mozzarella-ricotta/prix-garantie-mozzarella-stange/p/6876548'
 Vollmilch:
   quantity: 1l
   migrosId: '204014000000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/milch/frische-milch/prix-garantie-vollmilch-35/p/6762621'
 Hackfleisch:
   quantity: 100g
   migrosId: '220221085100'
+  coopId: 'https://www.coop.ch/de/lebensmittel/fleisch-fisch/abgepacktes-frischfleisch/hackfleisch/prix-garantie-hackfleisch-gemischt/p/5625827'
 Hinterschinken:
   quantity: 100g
   migrosId: '231502083302'
+  coopId: 'https://www.coop.ch/de/lebensmittel/fleisch-fisch/charcuterie-wurstwaren/schinken-aufschnitt/schinken/prix-garantie-hinterschinken/p/7075457'
 Orangen:
   quantity: 1kg
   migrosId: '263300902300'
+  coopId: 'https://www.coop.ch/de/lebensmittel/fruechte-gemuese/fruechte/zitrusfruechte/orangen/prix-garantie-orangen/p/6497015'
 Tomato Ketchup:
   quantity: 500g
   migrosId: '106618900000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/ketchup/prix-garantie-ketchup/p/6509236'
 Toast:
   quantity: 500g
   migrosId: '111200800000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/brot-backwaren/haltbare-brote/toastbrote-buns/prix-garantie-toast/p/7121375'
 Tortellini:
   quantity: 400g
   migrosId: '130140400000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/fertiggerichte/frische-fertiggerichte/pasta-gerichte/pasta-gefuellt/prix-garantie-tortellini-spinat-ricotta/p/5601977'
 Lasagne:
   quantity: 400g
   migrosId: '162527500000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fertiggerichte/uebrige-tiefkuehlgerichte/prix-garantie-lasagne-bolognese/p/6537750'
 Cottage Cheese:
   quantity: 200g
   migrosId: '200604600000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/huettenkaese/prix-garantie-huettenkaese-nature/p/6407679'
 Brie:
   quantity: 100g
   migrosId: '212555700000'
+  coopId: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/weichkaese/weissschimmelkaese/prix-garantie-brie-suisse-a-la-creme/p/3551313'
