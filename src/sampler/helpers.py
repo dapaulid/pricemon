@@ -1,5 +1,10 @@
 import re
 import os
+import math
+
+def isnan(x):
+	# does not throw for non-floats
+	return x != x
 
 def load_config(filename):
 	ext = os.path.splitext(filename)[-1]
@@ -27,30 +32,33 @@ def parse_quantity(quantity):
     return value, unit
 
 def divide_quantity(quantity1, quantity2):
-    if not quantity1 or not quantity2:
-        return 1
-    units = {
-        "kg": 1000,
-        "g": 1,
-        "l": 1000,
-        "ml": 1
-    }
 
-    quantity1_value, quantity1_unit = parse_quantity(quantity1)
-    quantity2_value, quantity2_unit = parse_quantity(quantity2)
+	units = {
+		"kg": 1000,
+		"g": 1,
+		"l": 1000,
+		"ml": 1
+	}
 
-    if quantity1_unit not in units:
-        raise ValueError(f"Invalid unit in quantity1: {quantity1_unit}")
-    if quantity2_unit not in units:
-        raise ValueError(f"Invalid unit in quantity2: {quantity2_unit}")
+	# check for nan values
+	if isnan(quantity1) or isnan(quantity2):
+		return math.nan
 
-    if quantity1_unit[-1] != quantity2_unit[-1]:
-        raise ValueError(f"Base units do not match: {quantity1_unit} and {quantity2_unit}")
+	quantity1_value, quantity1_unit = parse_quantity(quantity1)
+	quantity2_value, quantity2_unit = parse_quantity(quantity2)
 
-    converted_quantity1 = quantity1_value * units[quantity1_unit]
-    converted_quantity2 = quantity2_value * units[quantity2_unit]
+	if quantity1_unit not in units:
+		raise ValueError(f"Invalid unit in quantity1: {quantity1_unit}")
+	if quantity2_unit not in units:
+		raise ValueError(f"Invalid unit in quantity2: {quantity2_unit}")
 
-    return converted_quantity1 / converted_quantity2
+	if quantity1_unit[-1] != quantity2_unit[-1]:
+		raise ValueError(f"Base units do not match: {quantity1_unit} and {quantity2_unit}")
+
+	converted_quantity1 = quantity1_value * units[quantity1_unit]
+	converted_quantity2 = quantity2_value * units[quantity2_unit]
+
+	return converted_quantity1 / converted_quantity2
 
 def format_price(price):
-    return "CHF %0.2f" % price
+    return "CHF %0.2f" % price if not isnan(price) else "n/a"
