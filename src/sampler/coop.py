@@ -9,6 +9,8 @@ from bs4 import BeautifulSoup
 
 class CoopStore(Store):
 		
+	name = "Coop"
+
 	def authenticate_impl(self):
 		pass
 

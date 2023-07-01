@@ -2,6 +2,8 @@ from store import Store
 from product import Product
 
 class MigrosStore(Store):
+
+	name = "Migros"
 		
 	def authenticate_impl(self):
 		r, headers = self.http_get("https://www.migros.ch/authentication/public/v1/api/guest?ignoreAuthModule=true&rememberme=true", resp_headers=True)
