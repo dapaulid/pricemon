@@ -27,6 +27,8 @@ def parse_quantity(quantity):
     return value, unit
 
 def divide_quantity(quantity1, quantity2):
+    if not quantity1 or not quantity2:
+        return 1
     units = {
         "kg": 1000,
         "g": 1,

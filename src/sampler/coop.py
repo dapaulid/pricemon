@@ -10,7 +10,7 @@ class CoopStore(Store):
 		pass
 
 	def get_product(self, id):
-		data = self.http_get("https://www.coop.ch/" + id, resp_json=False)
+		data = self.http_get(id, resp_json=False)
 		data = html.unescape(data.decode())
 		info = json.loads(find_between(data, '<!-- Product schema -->\n    <script type="application/ld+json">', '</script>'))
 		print(info['name'])

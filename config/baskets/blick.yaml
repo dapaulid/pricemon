@@ -3,11 +3,11 @@
 Milchschokolade:
   quantity: 100g
   migrosId: '100102800000'
-  coopId: 'de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch-nuss/prix-garantie-fairtrade-tafelschokolade-nuss/p/5934045'
+  coopId: 'https://www.coop.ch/de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch-nuss/prix-garantie-fairtrade-tafelschokolade-nuss/p/5934045'
 Olivenöl:
   quantity: 1l
   migrosId: '103302600000'
-  coopId: 'de/lebensmittel/vorraete/essig-oel/oel/olivenoel/prix-garantie-olivenoel-vergine-1l/p/6659561'  
+  coopId: 'https://www.coop.ch/de/lebensmittel/vorraete/essig-oel/oel/olivenoel/prix-garantie-olivenoel-vergine-1l/p/6659561'  
 Spaghetti:
   quantity: 1kg
   migrosId: '104102000000'
