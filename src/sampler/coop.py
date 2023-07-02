@@ -4,7 +4,7 @@ import html
 import re
 import json
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 
 
 class CoopStore(Store):
@@ -16,19 +16,21 @@ class CoopStore(Store):
 
 	def get_product_impl(self, url):
 		data = self.http_get(url, resp_json=False)
-		data = html.unescape(data.decode())
-		info = json.loads(find_between(data, '<!-- Product schema -->\n    <script type="application/ld+json">', '</script>'))
 
 		soup = BeautifulSoup(data, 'html.parser')
+
+		# get product info containing price
+		product_schema = soup.find(text=lambda text: isinstance(text, Comment) and 'Product schema' in text)
+		info = json.loads(html.unescape(product_schema.find_next_sibling().text))
+
+		# get quantity
 		quantity_info_element = soup.find('div', {'class': 'productBasicInfo__quantity-info'})
 		if not quantity_info_element:
 			raise ValueError("Product quantity information not found")
 		quantity_element = quantity_info_element.find('span', {'itemprop': 'value'})
 		if not quantity_element:
 			raise ValueError("Product quantity not found")
-		quantity = quantity_element.text.strip()
-		unit = quantity_element.next_sibling.strip()
-		quantity = f"{quantity}{unit}"
+		quantity = quantity_element.text.strip() + quantity_element.next_sibling.strip()
 
 		prod = Product(name=info['name'], description=None, price=info['offers']['price'], quantity=quantity)
 		return prod
