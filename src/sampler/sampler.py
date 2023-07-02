@@ -4,12 +4,14 @@ import helpers
 from product import Product
 from migros import MigrosStore
 from coop import CoopStore
+from lidl import LidlStore
 
 basket = helpers.load_config("config/baskets/blick.yaml")
 
 stores = [
 	MigrosStore(),
 	CoopStore(),
+	LidlStore()
 ]
 
 table = []
