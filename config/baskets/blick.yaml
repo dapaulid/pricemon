@@ -2,91 +2,91 @@
 ---
 Milchschokolade:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/100102800000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch-nuss/prix-garantie-fairtrade-tafelschokolade-nuss/p/5934045'
-  Lidl: 'https://sortiment.lidl.ch/de/milchschokolade-0021237.html'
+  Migros: https://www.migros.ch/de/product/100102800000
+  Coop: https://www.coop.ch/de/lebensmittel/suesses-snacks/schokolade-suessigkeiten/tafelschokolade/milch-nuss/prix-garantie-fairtrade-tafelschokolade-nuss/p/5934045
+  Lidl: https://sortiment.lidl.ch/de/milchschokolade-0021237.html
 Olivenöl:
   quantity: 1l
-  Migros: 'https://www.migros.ch/de/product/103302600000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/vorraete/essig-oel/oel/olivenoel/prix-garantie-olivenoel-vergine-1l/p/6659561'  
-  Lidl: 'https://sortiment.lidl.ch/de/delicato-olivenoel-extra-nativ-0025810.html'
+  Migros: https://www.migros.ch/de/product/103302600000
+  Coop: https://www.coop.ch/de/lebensmittel/vorraete/essig-oel/oel/olivenoel/prix-garantie-olivenoel-vergine-1l/p/6659561  
+  Lidl: https://sortiment.lidl.ch/de/delicato-olivenoel-extra-nativ-0025810.html
 Spaghetti:
   quantity: 1kg
-  Migros: 'https://www.migros.ch/de/product/104102000000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/vorraete/grundnahrungsmittel/teigwaren/spaghetti/prix-garantie-spaghetti/p/4831118'
-  Lidl: 'https://sortiment.lidl.ch/de/bio-spaghetti-0127393.html'
+  Migros: https://www.migros.ch/de/product/104102000000
+  Coop: https://www.coop.ch/de/lebensmittel/vorraete/grundnahrungsmittel/teigwaren/spaghetti/prix-garantie-spaghetti/p/4831118
+  Lidl: https://sortiment.lidl.ch/de/bio-spaghetti-0127393.html
 Senf:
   quantity: 300g
-  Migros: 'https://www.migros.ch/de/product/106409500000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/senf/prix-garantie-senf/p/3530644'
-  Lidl: 'https://sortiment.lidl.ch/de/senf-0011642.html'
+  Migros: https://www.migros.ch/de/product/106409500000
+  Coop: https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/senf/prix-garantie-senf/p/3530644
+  Lidl: https://sortiment.lidl.ch/de/senf-0011642.html
 Mineral:
   quantity: 1,5l
-  Migros: 'https://www.migros.ch/de/product/120801100000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/getraenke/mineralwasser/mit-kohlensaeure/prix-garantie-mineralwasser-mit-kohlensaeure-6x15l/p/3461198'
-  Lidl: 'https://sortiment.lidl.ch/de/mineralwasser-0000001.html'
+  Migros: https://www.migros.ch/de/product/120801100000
+  Coop: https://www.coop.ch/de/lebensmittel/getraenke/mineralwasser/mit-kohlensaeure/prix-garantie-mineralwasser-mit-kohlensaeure-6x15l/p/3461198
+  Lidl: https://sortiment.lidl.ch/de/mineralwasser-0000001.html
 Konfitüre Himbeer:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/151003000000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/vorraete/brotaufstrich/konfituere/erdbeer-himbeer/prix-garantiehimbeere/p/6685845'
-  Lidl: 'https://sortiment.lidl.ch/de/himbeer-konfituere-extra-0183951.html'
+  Migros: https://www.migros.ch/de/product/151003000000
+  Coop: https://www.coop.ch/de/lebensmittel/vorraete/brotaufstrich/konfituere/erdbeer-himbeer/prix-garantiehimbeere/p/6685845
+  Lidl: https://sortiment.lidl.ch/de/himbeer-konfituere-extra-0183951.html
 Fischstäbchen:
   quantity: 450g
-  Migros: 'https://www.migros.ch/de/product/165040700000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fleisch-fisch/fisch-meeresfruechte/fisch-paniert/prix-garantie-fischsticks-15x30g/p/6855501'
-  Lidl: 'https://sortiment.lidl.ch/de/msc-fischstaebchen-0112834.html'
+  Migros: https://www.migros.ch/de/product/165040700000
+  Coop: https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fleisch-fisch/fisch-meeresfruechte/fisch-paniert/prix-garantie-fischsticks-15x30g/p/6855501
+  Lidl: https://sortiment.lidl.ch/de/msc-fischstaebchen-0112834.html
 Mozzarella:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/200609600000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/mozzarella-ricotta/prix-garantie-mozzarella-stange/p/6876548'
-  Lidl: 'https://sortiment.lidl.ch/de/schweizer-mozzarella-stange-0003097.html'
+  Migros: https://www.migros.ch/de/product/200609600000
+  Coop: https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/mozzarella-ricotta/prix-garantie-mozzarella-stange/p/6876548
+  Lidl: https://sortiment.lidl.ch/de/schweizer-mozzarella-stange-0003097.html
 Vollmilch:
   quantity: 1l
-  Migros: 'https://www.migros.ch/de/product/204014000000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/milch/frische-milch/prix-garantie-vollmilch-35/p/6762621'
-  Lidl: 'https://sortiment.lidl.ch/de/vollmilch-3-5-pasteurisiert-5110077.html'
+  Migros: https://www.migros.ch/de/product/204014000000
+  Coop: https://www.coop.ch/de/lebensmittel/milchprodukte-eier/milch/frische-milch/prix-garantie-vollmilch-35/p/6762621
+  Lidl: https://sortiment.lidl.ch/de/vollmilch-3-5-pasteurisiert-5110077.html
 Hackfleisch:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/220221085100'
-  Coop: 'https://www.coop.ch/de/lebensmittel/fleisch-fisch/abgepacktes-frischfleisch/hackfleisch/prix-garantie-hackfleisch-gemischt/p/5625827'
-  Lidl: 'https://sortiment.lidl.ch/de/hackfleisch-gemischt-0001412.html'
+  Migros: https://www.migros.ch/de/product/220221085100
+  Coop: https://www.coop.ch/de/lebensmittel/fleisch-fisch/abgepacktes-frischfleisch/hackfleisch/prix-garantie-hackfleisch-gemischt/p/5625827
+  Lidl: https://sortiment.lidl.ch/de/hackfleisch-gemischt-0001412.html
 Hinterschinken:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/231502083302'
-  Coop: 'https://www.coop.ch/de/lebensmittel/fleisch-fisch/charcuterie-wurstwaren/schinken-aufschnitt/schinken/prix-garantie-hinterschinken/p/7075457'
-  Lidl: 'https://sortiment.lidl.ch/de/hinterschinken-0001367.html'
+  Migros: https://www.migros.ch/de/product/231502083302
+  Coop: https://www.coop.ch/de/lebensmittel/fleisch-fisch/charcuterie-wurstwaren/schinken-aufschnitt/schinken/prix-garantie-hinterschinken/p/7075457
+  Lidl: https://sortiment.lidl.ch/de/hinterschinken-0001367.html
 Orangen:
   quantity: 1kg
-  Migros: 'https://www.migros.ch/de/product/263300902300'
-  Coop: 'https://www.coop.ch/de/lebensmittel/fruechte-gemuese/fruechte/zitrusfruechte/orangen/prix-garantie-orangen/p/6497015'
-  Lidl: 'https://sortiment.lidl.ch/de/orangen-1-5kg-0080141.html'
+  Migros: https://www.migros.ch/de/product/263300902300
+  Coop: https://www.coop.ch/de/lebensmittel/fruechte-gemuese/fruechte/zitrusfruechte/orangen/prix-garantie-orangen/p/6497015
+  Lidl: https://sortiment.lidl.ch/de/orangen-1-5kg-0080141.html
 Tomato Ketchup:
   quantity: 500g
-  Migros: 'https://www.migros.ch/de/product/106618900000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/ketchup/prix-garantie-ketchup/p/6509236'
-  Lidl: 'https://sortiment.lidl.ch/de/tomatenketchup-0155908.html'
+  Migros: https://www.migros.ch/de/product/106618900000
+  Coop: https://www.coop.ch/de/lebensmittel/vorraete/salatsaucen-kalte-saucen/ketchup/prix-garantie-ketchup/p/6509236
+  Lidl: https://sortiment.lidl.ch/de/tomatenketchup-0155908.html
 Toast:
   quantity: 500g
-  Migros: 'https://www.migros.ch/de/product/111200800000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/brot-backwaren/haltbare-brote/toastbrote-buns/prix-garantie-toast/p/7121375'
-  Lidl: 'https://sortiment.lidl.ch/de/weizentoast-0138779.html'
+  Migros: https://www.migros.ch/de/product/111200800000
+  Coop: https://www.coop.ch/de/lebensmittel/brot-backwaren/haltbare-brote/toastbrote-buns/prix-garantie-toast/p/7121375
+  Lidl: https://sortiment.lidl.ch/de/weizentoast-0138779.html
 Tortellini:
   quantity: 400g
-  Migros: 'https://www.migros.ch/de/product/130140400000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/fertiggerichte/frische-fertiggerichte/pasta-gerichte/pasta-gefuellt/prix-garantie-tortellini-spinat-ricotta/p/5601977'
-  Lidl: 'https://sortiment.lidl.ch/de/bio-tortellini-7705428.html'
+  Migros: https://www.migros.ch/de/product/130140400000
+  Coop: https://www.coop.ch/de/lebensmittel/fertiggerichte/frische-fertiggerichte/pasta-gerichte/pasta-gefuellt/prix-garantie-tortellini-spinat-ricotta/p/5601977
+  Lidl: https://sortiment.lidl.ch/de/bio-tortellini-7705428.html
 Lasagne:
   quantity: 400g
-  Migros: 'https://www.migros.ch/de/product/162527500000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fertiggerichte/uebrige-tiefkuehlgerichte/prix-garantie-lasagne-bolognese/p/6537750'
-  Lidl: 'https://sortiment.lidl.ch/de/lasagne-0161009.html'
+  Migros: https://www.migros.ch/de/product/162527500000
+  Coop: https://www.coop.ch/de/lebensmittel/tiefgekuehlt/fertiggerichte/uebrige-tiefkuehlgerichte/prix-garantie-lasagne-bolognese/p/6537750
+  Lidl: https://sortiment.lidl.ch/de/lasagne-0161009.html
 Cottage Cheese:
   quantity: 200g
-  Migros: 'https://www.migros.ch/de/product/200604600000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/huettenkaese/prix-garantie-huettenkaese-nature/p/6407679'
-  Lidl: 'https://sortiment.lidl.ch/de/huettenkaese-0002699.html'
+  Migros: https://www.migros.ch/de/product/200604600000
+  Coop: https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/frischkaese-mozzarella/huettenkaese/prix-garantie-huettenkaese-nature/p/6407679
+  Lidl: https://sortiment.lidl.ch/de/huettenkaese-0002699.html
 Brie:
   quantity: 100g
-  Migros: 'https://www.migros.ch/de/product/212555700000'
-  Coop: 'https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/weichkaese/weissschimmelkaese/prix-garantie-brie-suisse-a-la-creme/p/3551313'
-  Lidl: 'https://sortiment.lidl.ch/de/brie-spitze-0039784.html'
+  Migros: https://www.migros.ch/de/product/212555700000
+  Coop: https://www.coop.ch/de/lebensmittel/milchprodukte-eier/abgepackter-kaese/weichkaese/weissschimmelkaese/prix-garantie-brie-suisse-a-la-creme/p/3551313
+  Lidl: https://sortiment.lidl.ch/de/brie-spitze-0039784.html
