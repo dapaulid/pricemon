@@ -1,0 +1,22 @@
+product            quantity       Migros       Coop       Lidl
+-----------------  ----------  ---------  ---------  ---------
+Milchschokolade    100g         CHF 0.70   CHF 0.70   CHF 0.79
+Olivenöl           1l           CHF 7.00   CHF 6.90   CHF 9.72
+Spaghetti          1kg          CHF 1.40   CHF 1.40   CHF 2.98
+Senf               300g         CHF 1.00   CHF 1.00   CHF 1.03
+Mineral            1,5l         CHF 0.35   CHF 0.30   CHF 0.35
+Konfitüre Himbeer  100g         CHF 0.50   CHF 0.44   CHF 0.43
+Fischstäbchen      450g         CHF 2.00   CHF 2.00   CHF 1.99
+Mozzarella         100g         CHF 0.57   CHF 0.57   CHF 0.53
+Vollmilch          1l           CHF 1.12   CHF 1.40   CHF 1.39
+Hackfleisch        100g         CHF 1.20   CHF 1.19   CHF 1.19
+Hinterschinken     100g         CHF 1.80   CHF 1.80   CHF 1.79
+Orangen            1kg          CHF 1.47   CHF 1.14   CHF 1.86
+Tomato Ketchup     500g         CHF 0.62   CHF 0.55   CHF 1.09
+Toast              500g         CHF 1.29   CHF 1.19   CHF 1.19
+Tortellini         400g         CHF 1.80   CHF 1.80   CHF 3.98
+Lasagne            400g         CHF 2.00   CHF 2.00   CHF 2.40
+Cottage Cheese     200g         CHF 1.09   CHF 1.09   CHF 1.16
+Brie               100g         CHF 0.82   CHF 0.84   CHF 0.82
+-----------------  ----------  ---------  ---------  ---------
+TOTAL (18 items)               CHF 26.75  CHF 26.32  CHF 34.71
